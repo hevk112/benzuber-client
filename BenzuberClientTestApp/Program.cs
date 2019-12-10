@@ -28,9 +28,9 @@ namespace BenzuberClientTestApp
             var hwid = "1415D518C428500F70F688CE04D8EA47";
 
             //Адрес сервера
-            var httpsTestAsApiazsBenzuberRu = "https://test-as-apiazs.benzuber.ru";
+            var server = "https://test-as-apiazs.benzuber.ru";
 
-            client = new Client(new Configuration(stationId, hwid, httpsTestAsApiazsBenzuberRu, Logger.LogLevels.Debug));
+            client = new Client(new Configuration(stationId, hwid, server, Logger.LogLevels.Debug));
 
             InitializeCallback();
 
